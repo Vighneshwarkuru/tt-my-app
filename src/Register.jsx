@@ -29,6 +29,7 @@ function Register(){
       <input type="text" name="username" onChange={changeName} placeholder="username"/>
       <input type="text" name="email" onChange={changeName} placeholder="email"/>
       <input type="password" name="psw" onChange={changeName} placeholder="psw"/>
+      <button onClick={submit}>Register</button>
     </div>
   );
 }
